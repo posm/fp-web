@@ -231,7 +231,6 @@ GEM
       ruby-progressbar
     multi_json (1.11.2)
     multipart-post (2.0.0)
-    mysql2 (0.4.10)
     nenv (0.2.0)
     nokogiri (1.8.4)
       mini_portile2 (~> 2.3.0)
@@ -245,6 +244,7 @@ GEM
       cocaine (~> 0.5.5)
       mime-types
       mimemagic (= 0.3.0)
+    pg (0.18.4)
     pry (0.10.3)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -386,8 +386,8 @@ DEPENDENCIES
   mapbox-rails!
   meta_request
   minitest-reporters
-  mysql2 (~> 0.4.0)
   paperclip (~> 4.3.1)
+  pg
   puma
   quiet_assets
   rack-contrib
