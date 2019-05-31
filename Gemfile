@@ -25,8 +25,7 @@ gem "sdoc", "~> 1.0.0", group: :doc
 
 gem "aws-sdk-v1", "~> 1"
 gem "aws-sdk-core", "~> 2"
-# also exists as posm/aws-ses#fp-web
-gem "aws-ses", :require => 'aws/ses', git: 'https://github.com/drewblas/aws-ses', ref: 'c1141c4925cad9f742440c995a1378745a34676c'
+gem "aws-ses", :require => 'aws/ses', git: 'https://github.com/posm/aws-ses', branch: 'fp-web'
 gem "bootstrap-sass", "~> 3.3.3"
 gem "composite_primary_keys", "~> 8.0.0"
 gem "devise", "~> 3.5.10" # authentication
@@ -46,8 +45,7 @@ gem "puma" # app server
 gem "rack-contrib"
 gem "rack-rewrite" # URL rewriting middleware
 gem "rails-i18n", "~> 4.0.0"
-# also exists as posm/s3_direct_upload#fp-web
-gem "s3_direct_upload", git: 'https://github.com/waynehoover/s3_direct_upload', ref: 'f8dd8cc03ece607c78ba3befa3270a256eac947c'
+gem "s3_direct_upload", git: 'https://github.com/posm/s3_direct_upload', branch: 'fp-web'
 gem "pg"
 gem "workflow"
 gem "json"
